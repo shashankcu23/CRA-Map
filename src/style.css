@@ -1,0 +1,44 @@
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .anticon {
+    margin-right: 5px;
+  }
+  
+  .content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .floating-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .region-info-card {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .night-mode-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+  }
+  
